@@ -1,0 +1,106 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Ashikul"
+    },
+    {
+      "id": 2,
+      "title": "Developer",
+      "author": "Kader"
+    },
+    {
+      "id": 3,
+      "title": "Manager",
+      "author": "Fahad"
+    },
+    {
+      "id": 4,
+      "title": "Automation",
+      "author": "Esrat"
+    },
+    {
+      "id": 5,
+      "title": "Director",
+      "author": "Jahan"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "My name is Ashikul Fahad",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "I am a Future SDET",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "body": "Software Development Engineer in Test",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "body": "I am From Dhaka, Bangladesh",
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "body": "I love walking into the forest",
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "body": "Rest-API is Awesome",
+      "postId": 6
+    }
+  ],
+  "profile": {
+    "name": "Jacob"
+  },
+  "address": {
+    "primary": [
+      {
+        "city": "Queenstown",
+        "State": "Jackson",
+        "Country": "New Zealand",
+        "PostalCode": 34567
+      },
+      {
+        "city": "Dhaka",
+        "State": "Gulsha",
+        "Country": "Bangladesh",
+        "PostalCode": 44556
+      },
+      {
+        "city": "Wilmington",
+        "State": "Delaware",
+        "Country": "USA",
+        "PostalCode": 10467
+      }
+    ],
+    "secondary": [
+      {
+        "city": "LongIslan",
+        "State": "New York",
+        "Country": "America",
+        "PostalCode": 12345
+      },
+      {
+        "city": "Marlboro",
+        "State": "New Jersey",
+        "Country": "United States",
+        "PostalCode": 34567
+      },
+      {
+        "city": "Township",
+        "State": "Virgenia",
+        "Country": "East Coach",
+        "PostalCode": 98765
+      }
+    ]
+  }
+}

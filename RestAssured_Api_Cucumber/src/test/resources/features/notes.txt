@@ -1,0 +1,8 @@
+In BDD for Rest Assured API testing when we are following DBB approach, there will be a conflict since Rest and Cucumber both use the Gherkin language pattern.
+- Solution is to write Feature file we use Gherkin and for REST we use: [ Arrange | Act | Assert pattern ]
+
+class:
+> RequestSpecBuilder
+> var requestSpec
+>
+
