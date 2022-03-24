@@ -1,4 +1,4 @@
-package tests;
+package maps_test_Serialized;
 
 import utils.Payload;
 import io.restassured.RestAssured;
@@ -96,11 +96,11 @@ public class MapsAPI_Basics {
 
 
         JsonPath jsonPath = Reusable_methods.raw_to_JSON(getPlaceResponse);
-        String actualAddress = jsonPath.getString("address");                                                      // we are taking out the updated Address value from the JSON
+        String actualAddress = jsonPath.getString("address");                                                                                                   // we are taking out the updated Address value from the JSON
 
         //System.out.println(actualAddress);
 
-        Assert.assertEquals("Address is miss-matching", newAddress, actualAddress);                             // validating that address has updated.
+        Assert.assertEquals("Address is miss-matching", newAddress, actualAddress);                                                                          // validating that address has updated.
 
 
         System.out.println("<<<< All is Well >>>>");

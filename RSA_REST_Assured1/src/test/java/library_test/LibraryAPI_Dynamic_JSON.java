@@ -1,4 +1,4 @@
-package tests;
+package library_test;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -21,6 +21,7 @@ public class LibraryAPI_Dynamic_JSON {
         // 1 - Add book  +  get the ID  +  Dynamically send data :
 
         RestAssured.baseURI = "http://216.10.245.166";
+
 
         String bookResponse = given().log().all().header("Content-Type", "application/json").body(Payload.addBook("abx", "3457Fq"))
                 .when().post("Library/Addbook.php")
