@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/resources/features/Place_Validation.feature"},
         glue = {"automation/step_Definition"},
-        plugin = {"pretty"}
+        plugin = {"pretty","json:target/jsonReports/cucumber-report.json"}
         //tags = "@DeletePlace"
 
 

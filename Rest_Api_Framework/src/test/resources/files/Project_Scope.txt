@@ -40,6 +40,8 @@ Maven Commands:
 5. Run with Tag:
    mvn test -Dcucumber.options="--tags @AddPlace"
 
+6. Run & get report:
+    mvn test verify
 
 note: -D stands for parameter.
 
