@@ -1,4 +1,7 @@
+
+================================
 API_Framework_Scope (BDD style):
+================================
 
 1. create maven project with maven and cucumber and Rest assured dependencies
 2. define project structure with cucumber framework setup
@@ -17,4 +20,26 @@ API_Framework_Scope (BDD style):
 15. Execute complete Framework from Maven Commands
 16. Implement Maven driven Global values into Test for Dynamic Execution
 17. Generate Reports for Test Execution results
-18.
+18. Integrate the framework into Jenkins CI/CD tool
+19. Implement parameterized Jenkins Job to choose the global values at run time.
+
+
+=====================================================================================================
+
+
+================
+Maven Commands:
+================
+
+1. mvn clean install
+2. mvn clean install -Dtest=Smoke_Runner
+3. mvn clean install -Dtest=Test_Runner
+4. Run from Terminal :
+   ( copy the source path of the project -> go to the directory using terminal -> mvn test || mvn compile || mvn clean install etc. )
+
+5. Run with Tag:
+   mvn test -Dcucumber.options="--tags @AddPlace"
+
+
+note: -D stands for parameter.
+

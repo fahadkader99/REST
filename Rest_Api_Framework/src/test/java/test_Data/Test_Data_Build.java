@@ -39,4 +39,14 @@ public class Test_Data_Build {
         return addPlace;
 
     }
+
+    public String deletePlace_Payload(String placeId){
+
+        String deletePlace = "{\n" +
+                "    \"place_id\":\""+placeId+"\" \n" +
+                "}";
+
+        return deletePlace;
+
+    }
 }

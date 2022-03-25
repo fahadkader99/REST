@@ -10,11 +10,12 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/resources/features/Place_Validation.feature"},
         glue = {"automation/step_Definition"},
-        plugin = {"pretty"}
-        //tags = "@DeletePlace"
+        plugin = {"pretty"},
+        tags = "@DeletePlace"
 
 
 )
 
-public class Test_Runner {
+
+public class Smoke_Runner {
 }

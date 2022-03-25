@@ -12,7 +12,262 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Haunted villa",
+    "name": "Esrat Jahan",
+    "phone_number": "3473473478",
+    "address": "30 Brooklyn",
+    "website": "http://youtube.com",
+    "language": "Arabic",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:45 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "3861f902b8504deb6c8b30946ef4e186",
+    "scope": "APP",
+    "reference": "5bc2ddebd28c9b6aa5d2f0ce7f3013a75bc2ddebd28c9b6aa5d2f0ce7f3013a7",
+    "id": "5bc2ddebd28c9b6aa5d2f0ce7f3013a7"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3861f902b8504deb6c8b30946ef4e186
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=3861f902b8504deb6c8b30946ef4e186
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:47 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 229
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Esrat Jahan",
+    "phone_number": "3473473478",
+    "address": "30 Brooklyn",
+    "types": "shoe park,shop",
+    "website": "http://youtube.com",
+    "language": "Arabic"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Fahad Kader",
+    "phone_number": "3473473478",
+    "address": "90 Queens villa",
+    "website": "http://google.com",
+    "language": "Hindi",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:50 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "0c654992852f28353364ceac769a1bc2",
+    "scope": "APP",
+    "reference": "8acc97b8befe02ec4e9815fcb9ac56c38acc97b8befe02ec4e9815fcb9ac56c3",
+    "id": "8acc97b8befe02ec4e9815fcb9ac56c3"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0c654992852f28353364ceac769a1bc2
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=0c654992852f28353364ceac769a1bc2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:52 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 231
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Fahad Kader",
+    "phone_number": "3473473478",
+    "address": "90 Queens villa",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "Hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sania Jahan",
+    "phone_number": "3473473478",
+    "address": "Long Island",
+    "website": "http://ea.com",
+    "language": "Bangla",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:55 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "303644ea30456e2af8c5e25845bacb6b",
+    "scope": "APP",
+    "reference": "9b1c1f67412b7db19dfe0a38cf3fa9849b1c1f67412b7db19dfe0a38cf3fa984",
+    "id": "9b1c1f67412b7db19dfe0a38cf3fa984"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=303644ea30456e2af8c5e25845bacb6b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=303644ea30456e2af8c5e25845bacb6b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:47:56 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 224
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sania Jahan",
+    "phone_number": "3473473478",
+    "address": "Long Island",
+    "types": "shoe park,shop",
+    "website": "http://ea.com",
+    "language": "Bangla"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ahad Kader",
     "phone_number": "3473473478",
     "address": "New York",
     "website": "http://ebay.com",
@@ -27,7 +282,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Thu, 24 Mar 2022 03:12:08 GMT
+Date: Fri, 25 Mar 2022 06:48:00 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +295,331 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "9f0a3bb5907cf3adaf706d2fbd27e46f",
+    "place_id": "e86511afa0d0fc19a92342512716636b",
     "scope": "APP",
-    "reference": "6ee34571fb960709ffb5b3cb50835fe36ee34571fb960709ffb5b3cb50835fe3",
-    "id": "6ee34571fb960709ffb5b3cb50835fe3"
+    "reference": "f58b0f7adfe2a5b3980abdd3c50744cdf58b0f7adfe2a5b3980abdd3c50744cd",
+    "id": "f58b0f7adfe2a5b3980abdd3c50744cd"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e86511afa0d0fc19a92342512716636b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e86511afa0d0fc19a92342512716636b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:01 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 223
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Ahad Kader",
+    "phone_number": "3473473478",
+    "address": "New York",
+    "types": "shoe park,shop",
+    "website": "http://ebay.com",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ayesha Nahar",
+    "phone_number": "3473473478",
+    "address": "Bangladesh",
+    "website": "http://adidas.com",
+    "language": "Farshi",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:04 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "55b18aeae0121292c99e355792fb7db3",
+    "scope": "APP",
+    "reference": "61ed209ab588e653854cea2d75aa2d0c61ed209ab588e653854cea2d75aa2d0c",
+    "id": "61ed209ab588e653854cea2d75aa2d0c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=55b18aeae0121292c99e355792fb7db3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=55b18aeae0121292c99e355792fb7db3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:06 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 228
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Ayesha Nahar",
+    "phone_number": "3473473478",
+    "address": "Bangladesh",
+    "types": "shoe park,shop",
+    "website": "http://adidas.com",
+    "language": "Farshi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ashikul Kader",
+    "phone_number": "3473473478",
+    "address": "Dhaka   1212",
+    "website": "http://amazon.com",
+    "language": "Chinese",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "0073572dc655b1a94357a6556faaa5c5",
+    "scope": "APP",
+    "reference": "9ac1f1002f114d5f79a2efcce410c7b89ac1f1002f114d5f79a2efcce410c7b8",
+    "id": "9ac1f1002f114d5f79a2efcce410c7b8"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0073572dc655b1a94357a6556faaa5c5
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=0073572dc655b1a94357a6556faaa5c5
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:10 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 232
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Ashikul Kader",
+    "phone_number": "3473473478",
+    "address": "Dhaka   1212",
+    "types": "shoe park,shop",
+    "website": "http://amazon.com",
+    "language": "Chinese"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Salman 22 Khan",
+    "phone_number": "3473473478",
+    "address": "Mumbai",
+    "website": "http://bbc.com",
+    "language": "Hindustan",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "75cb9e6126662de44f36de97a4bda785",
+    "scope": "APP",
+    "reference": "82c47d5251c744907bb210cc056b4e8882c47d5251c744907bb210cc056b4e88",
+    "id": "82c47d5251c744907bb210cc056b4e88"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=75cb9e6126662de44f36de97a4bda785
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=75cb9e6126662de44f36de97a4bda785
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 226
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Salman 22 Khan",
+    "phone_number": "3473473478",
+    "address": "Mumbai",
+    "types": "shoe park,shop",
+    "website": "http://bbc.com",
+    "language": "Hindustan"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "75cb9e6126662de44f36de97a4bda785"
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Mar 2022 06:48:18 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
 }
