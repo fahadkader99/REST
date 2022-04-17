@@ -5,6 +5,7 @@ import io.restassured.path.json.JsonPath;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 import utils.Payload;
+import utils.Reusable_Methods;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -25,7 +26,7 @@ public class Maps_Basic {
 
         String response = given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json").body(Payload.addPlace())
                 .when().post("/maps/api/place/add/json")
-                .then().log().all().assertThat().body("scope", equalTo("APP")).body("status",equalTo("OK")).header("Server","Apache/2.4.18 (Ubuntu)").extract().response().asString();
+                .then().log().all().assertThat().body("scope", equalTo("APP")).body("status",equalTo("OK")).header("Server","Apache/2.4.41 (Ubuntu)").extract().response().asString();
 
         System.out.println("\n-->Add Place API: \n"+response);
 
@@ -67,7 +68,7 @@ public class Maps_Basic {
 
         System.out.println("\n-->Get Place API\n"+getPlaceResponse);
 
-        JsonPath js1 = new JsonPath(getPlaceResponse);
+        JsonPath js1 = Reusable_Methods.rawToJson(getPlaceResponse);
         String getAddress = js1.get("address").toString();
 
         Assert.assertEquals(newAddress,getAddress);

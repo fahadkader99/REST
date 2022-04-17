@@ -1,0 +1,39 @@
+{
+  "dashboard" : {
+    "purchaseAmount" : 910,
+    "website" : "https://rahulshettyacademy.com"
+  },
+  "courses": [
+    {
+      "title": "Selenium Python",
+      "price": 50,
+      "copies": 6
+    },
+    {
+      "title": "Cypress",
+      "price": 40,
+      "copies": 4
+    },
+    {
+      "title": "RPA",
+      "price": 45,
+      "copies": 10
+    },
+    {
+      "title": "Git",
+      "price": 30,
+      "copies": 8
+    },
+    {
+      "title": "MySQL",
+      "price": 55,
+      "copies": 15
+    },
+    {
+      "title": "Jenkins",
+      "price": 75,
+      "copies": 30
+    }
+  ]
+}
+

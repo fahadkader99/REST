@@ -102,7 +102,7 @@ public class Jira_API_EndTOEnd {
         // validate comments ID :-: of most recent _____ since we have multiple comment : we can track the comment by using there specific ID
 
         JsonPath js1 = new JsonPath(issueDetails);
-        int commentsCount = js1.getInt("fields.comment.comments.size()");                                          // follow json editor online use the path and get the size of the number of comments
+        int commentsCount = js1.getInt("fields.comment.comments.size()");                                           // follow json editor online use the path and get the size of the number of comments
 
 
         for (int i = 0; i < commentsCount; i++) {                                                                       // for multiple comments but for 1 comment we do not need this step
