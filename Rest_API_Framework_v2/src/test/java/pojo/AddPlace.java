@@ -2,9 +2,7 @@ package pojo;
 
 import java.util.List;
 
-/*Serialization we set the values so use: Setter && De-serialization we get the values so use Getters*/
-
-public class Add_Place {
+public class AddPlace {
 
     private int accuracy;
     private String name;
@@ -12,8 +10,12 @@ public class Add_Place {
     private String address;
     private String website;
     private String language;
-    private Location location;                                                      // return type is the class since it is Sub-json
-    private List<String> types;                                                     // return type is LIST since types has arrays in the json file
+
+    private Location location;
+    private List<String> types;
+
+
+    // Setters and Getters:
 
 
     public int getAccuracy() {

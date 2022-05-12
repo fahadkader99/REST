@@ -1,7 +1,12 @@
 package place_api;
 
 import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import pojo_serialized.AddPlace;
 import pojo_serialized.Location;
 
@@ -37,13 +42,30 @@ public class Serialized_Test {
         addPlace.setLocation(location);
 
 
-
-
-        Response res = given().log().all().queryParam("key","qaclick124").body(addPlace)
+            // other way of doing the same acton are given below: by breaking it down further.
+/*        Response res = given().log().all().queryParam("key","qaclick123").body(addPlace)
                 .when().post("/maps/api/place/add/json")
-                .then().log().all().assertThat().statusCode(200).extract().response();
+                .then().log().all().assertThat().statusCode(200).extract().response();*/
 
-        String responseString = res.asString();
+
+
+        // more Optimised using --> Request & Response Spec builder,
+
+        RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addQueryParam("key","qaclick123")
+                .setContentType(ContentType.JSON).build();
+
+        ResponseSpecification resSpec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+
+
+
+        RequestSpecification res = given().spec(req).body(addPlace);        // now it became a request specification & res is re-usable
+
+        Response response = res.when().post("/maps/api/place/add/json")     // by using res, we are making response.
+                .then().spec(resSpec).extract().response();
+
+
+
+        String responseString = response.asString();
         System.out.println(responseString);
 
 

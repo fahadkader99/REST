@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
-        features = {"src/test/resources/features/Place_Validation.feature"},
+        features = {"src/test/resources/features/placeValidation.feature"},
         glue = {"automation/step_def"},
-        plugin = {"pretty"}
+        plugin = {"pretty"},
+        tags = "@AddPlace"
 )
 
 
-public class TestRunner {
+public class AddRunner {
 }
