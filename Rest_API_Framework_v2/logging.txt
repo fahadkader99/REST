@@ -12,10 +12,10 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 55,
-    "name": "Fahad",
-    "phone_number": "2222222222",
-    "address": "Metropolitan",
-    "website": "http://ebay.com",
+    "name": "ABC 67",
+    "phone_number": "1234567890",
+    "address": "Bronx",
+    "website": "http://youtube.com",
     "language": "English",
     "location": {
         "lat": -39.39,
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Thu, 12 May 2022 06:58:54 GMT
+Date: Thu, 12 May 2022 18:35:16 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "9410ede502d0ab70592bfb876ce92e77",
+    "place_id": "a3d75dd313faf118eab301e95e18c542",
     "scope": "APP",
-    "reference": "cdd72fc557a7052ccb0cdc845fe5a86ccdd72fc557a7052ccb0cdc845fe5a86c",
-    "id": "cdd72fc557a7052ccb0cdc845fe5a86c"
+    "reference": "2269cda8cd15afce023fe6fa220163bc2269cda8cd15afce023fe6fa220163bc",
+    "id": "2269cda8cd15afce023fe6fa220163bc"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9410ede502d0ab70592bfb876ce92e77
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a3d75dd313faf118eab301e95e18c542
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=9410ede502d0ab70592bfb876ce92e77
+				place_id=a3d75dd313faf118eab301e95e18c542
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,13 +59,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 12 May 2022 06:58:55 GMT
+Date: Thu, 12 May 2022 18:35:17 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 222
+Content-Length: 219
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -76,12 +76,437 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "55.59"
     },
     "accuracy": "55",
-    "name": "Fahad",
-    "phone_number": "2222222222",
-    "address": "Metropolitan",
+    "name": "ABC 67",
+    "phone_number": "1234567890",
+    "address": "Bronx",
+    "types": "Apple,Ipad Air 5th Gen",
+    "website": "http://youtube.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Ash 121",
+    "phone_number": "3025109999",
+    "address": "Manhattan",
+    "website": "http://google.com",
+    "language": "Bengali",
+    "location": {
+        "lat": -39.39,
+        "lng": 55.59
+    },
+    "types": [
+        "Apple",
+        "Ipad Air 5th Gen"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:18 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4c01290bfb40a83e412add450700a759",
+    "scope": "APP",
+    "reference": "13ebf577551f442698c47b457af49f3813ebf577551f442698c47b457af49f38",
+    "id": "13ebf577551f442698c47b457af49f38"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4c01290bfb40a83e412add450700a759
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4c01290bfb40a83e412add450700a759
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:19 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 223
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-39.39",
+        "longitude": "55.59"
+    },
+    "accuracy": "55",
+    "name": "Ash 121",
+    "phone_number": "3025109999",
+    "address": "Manhattan",
+    "types": "Apple,Ipad Air 5th Gen",
+    "website": "http://google.com",
+    "language": "Bengali"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Kader  $",
+    "phone_number": "3472802792",
+    "address": "Queens",
+    "website": "http://ea.com",
+    "language": "Spanish",
+    "location": {
+        "lat": -39.39,
+        "lng": 55.59
+    },
+    "types": [
+        "Apple",
+        "Ipad Air 5th Gen"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "faff7b0ad9cd2f5bcf4be47daa796764",
+    "scope": "APP",
+    "reference": "d60325b55fbd6582b3b714e4c199bd55d60325b55fbd6582b3b714e4c199bd55",
+    "id": "d60325b55fbd6582b3b714e4c199bd55"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=faff7b0ad9cd2f5bcf4be47daa796764
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=faff7b0ad9cd2f5bcf4be47daa796764
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:21 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 217
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-39.39",
+        "longitude": "55.59"
+    },
+    "accuracy": "55",
+    "name": "Kader  $",
+    "phone_number": "3472802792",
+    "address": "Queens",
+    "types": "Apple,Ipad Air 5th Gen",
+    "website": "http://ea.com",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Fahad  #",
+    "phone_number": "6789543219",
+    "address": "Brooklyn",
+    "website": "http://ebay.com",
+    "language": "Arabic",
+    "location": {
+        "lat": -39.39,
+        "lng": 55.59
+    },
+    "types": [
+        "Apple",
+        "Ipad Air 5th Gen"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:23 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "35de00d3c419d7e401396b4f4f858586",
+    "scope": "APP",
+    "reference": "aacc3ff2e5e4dae2145648384f853678aacc3ff2e5e4dae2145648384f853678",
+    "id": "aacc3ff2e5e4dae2145648384f853678"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=35de00d3c419d7e401396b4f4f858586
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=35de00d3c419d7e401396b4f4f858586
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:24 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 220
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-39.39",
+        "longitude": "55.59"
+    },
+    "accuracy": "55",
+    "name": "Fahad  #",
+    "phone_number": "6789543219",
+    "address": "Brooklyn",
     "types": "Apple,Ipad Air 5th Gen",
     "website": "http://ebay.com",
-    "language": "English"
+    "language": "Arabic"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Ayesha Nahar",
+    "phone_number": "1212121212",
+    "address": "Bangladesh",
+    "website": "http://adidas.com",
+    "language": "Chinese",
+    "location": {
+        "lat": -39.39,
+        "lng": 55.59
+    },
+    "types": [
+        "Apple",
+        "Ipad Air 5th Gen"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:25 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "99744646f4cd8fba76e1302f6ec10d23",
+    "scope": "APP",
+    "reference": "c9b2bf83f3c97dc621578c7f2fee52f6c9b2bf83f3c97dc621578c7f2fee52f6",
+    "id": "c9b2bf83f3c97dc621578c7f2fee52f6"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=99744646f4cd8fba76e1302f6ec10d23
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=99744646f4cd8fba76e1302f6ec10d23
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:26 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 229
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-39.39",
+        "longitude": "55.59"
+    },
+    "accuracy": "55",
+    "name": "Ayesha Nahar",
+    "phone_number": "1212121212",
+    "address": "Bangladesh",
+    "types": "Apple,Ipad Air 5th Gen",
+    "website": "http://adidas.com",
+    "language": "Chinese"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Ashikul Kader",
+    "phone_number": "1111111111",
+    "address": "Dhaka   1212",
+    "website": "http://amazon.com",
+    "language": "Farsi",
+    "location": {
+        "lat": -39.39,
+        "lng": 55.59
+    },
+    "types": [
+        "Apple",
+        "Ipad Air 5th Gen"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:27 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1ae5bc24e065f4e309353ee0f84db38b",
+    "scope": "APP",
+    "reference": "0db37e744c81f5a8b3281cb06e5e224d0db37e744c81f5a8b3281cb06e5e224d",
+    "id": "0db37e744c81f5a8b3281cb06e5e224d"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1ae5bc24e065f4e309353ee0f84db38b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1ae5bc24e065f4e309353ee0f84db38b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 18:35:28 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-39.39",
+        "longitude": "55.59"
+    },
+    "accuracy": "55",
+    "name": "Ashikul Kader",
+    "phone_number": "1111111111",
+    "address": "Dhaka   1212",
+    "types": "Apple,Ipad Air 5th Gen",
+    "website": "http://amazon.com",
+    "language": "Farsi"
 }
 Request method:	DELETE
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -96,10 +521,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "9410ede502d0ab70592bfb876ce92e77"
+    "place_id": "1ae5bc24e065f4e309353ee0f84db38b"
 }
 HTTP/1.1 200 OK
-Date: Thu, 12 May 2022 06:58:56 GMT
+Date: Thu, 12 May 2022 18:35:29 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST

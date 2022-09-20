@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-10T07:15:50.753Z",
+        "start_timestamp": "2022-05-12T18:46:18.687Z",
         "line": 15,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 325000,
+              "duration": 292000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 801275000,
+              "duration": 670862000,
               "status": "passed"
             },
             "line": 6,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 1895746000,
+              "duration": 1262009000,
               "status": "passed"
             },
             "line": 7,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1234000,
+              "duration": 1146000,
               "status": "passed"
             },
             "line": 8,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 321202000,
+              "duration": 285560000,
               "status": "passed"
             },
             "line": 9,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 7784000,
+              "duration": 7576000,
               "status": "passed"
             },
             "line": 10,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 3407840000,
+              "duration": 738218000,
               "status": "passed"
             },
             "line": 11,
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:15:57.237Z",
+        "start_timestamp": "2022-05-12T18:46:21.701Z",
         "line": 16,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -174,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 43000,
+              "duration": 55000,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3135000,
+              "duration": 3082000,
               "status": "passed"
             },
             "line": 6,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 1081307000,
+              "duration": 636727000,
               "status": "passed"
             },
             "line": 7,
@@ -239,7 +239,7 @@
           },
           {
             "result": {
-              "duration": 75000,
+              "duration": 102000,
               "status": "passed"
             },
             "line": 8,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 8423000,
+              "duration": 7691000,
               "status": "passed"
             },
             "line": 9,
@@ -279,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 7654000,
+              "duration": 7608000,
               "status": "passed"
             },
             "line": 10,
@@ -301,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 3392950000,
+              "duration": 690805000,
               "status": "passed"
             },
             "line": 11,
@@ -329,7 +329,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:01.735Z",
+        "start_timestamp": "2022-05-12T18:46:23.052Z",
         "line": 17,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -337,7 +337,7 @@
         "after": [
           {
             "result": {
-              "duration": 42000,
+              "duration": 50000,
               "status": "passed"
             },
             "match": {
@@ -350,7 +350,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2294000,
+              "duration": 2111000,
               "status": "passed"
             },
             "line": 6,
@@ -380,7 +380,7 @@
           },
           {
             "result": {
-              "duration": 1799180000,
+              "duration": 635265000,
               "status": "passed"
             },
             "line": 7,
@@ -402,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 103000,
+              "duration": 86000,
               "status": "passed"
             },
             "line": 8,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 7678000,
+              "duration": 6411000,
               "status": "passed"
             },
             "line": 9,
@@ -442,7 +442,7 @@
           },
           {
             "result": {
-              "duration": 6577000,
+              "duration": 7042000,
               "status": "passed"
             },
             "line": 10,
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 3503854000,
+              "duration": 664472000,
               "status": "passed"
             },
             "line": 11,
@@ -492,7 +492,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:07.060Z",
+        "start_timestamp": "2022-05-12T18:46:24.371Z",
         "line": 18,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -500,7 +500,7 @@
         "after": [
           {
             "result": {
-              "duration": 40000,
+              "duration": 41000,
               "status": "passed"
             },
             "match": {
@@ -513,7 +513,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2230000,
+              "duration": 2051000,
               "status": "passed"
             },
             "line": 6,
@@ -543,7 +543,7 @@
           },
           {
             "result": {
-              "duration": 1078565000,
+              "duration": 787395000,
               "status": "passed"
             },
             "line": 7,
@@ -565,7 +565,7 @@
           },
           {
             "result": {
-              "duration": 106000,
+              "duration": 98000,
               "status": "passed"
             },
             "line": 8,
@@ -583,7 +583,7 @@
           },
           {
             "result": {
-              "duration": 7149000,
+              "duration": 6977000,
               "status": "passed"
             },
             "line": 9,
@@ -605,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 6555000,
+              "duration": 6105000,
               "status": "passed"
             },
             "line": 10,
@@ -627,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 3401942000,
+              "duration": 742227000,
               "status": "passed"
             },
             "line": 11,
@@ -655,7 +655,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:11.561Z",
+        "start_timestamp": "2022-05-12T18:46:25.921Z",
         "line": 19,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -663,7 +663,7 @@
         "after": [
           {
             "result": {
-              "duration": 42000,
+              "duration": 40000,
               "status": "passed"
             },
             "match": {
@@ -676,7 +676,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2912000,
+              "duration": 2354000,
               "status": "passed"
             },
             "line": 6,
@@ -706,7 +706,7 @@
           },
           {
             "result": {
-              "duration": 1238758000,
+              "duration": 752826000,
               "status": "passed"
             },
             "line": 7,
@@ -728,7 +728,7 @@
           },
           {
             "result": {
-              "duration": 134000,
+              "duration": 102000,
               "status": "passed"
             },
             "line": 8,
@@ -746,7 +746,7 @@
           },
           {
             "result": {
-              "duration": 6237000,
+              "duration": 6927000,
               "status": "passed"
             },
             "line": 9,
@@ -768,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 6830000,
+              "duration": 6322000,
               "status": "passed"
             },
             "line": 10,
@@ -790,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 3836890000,
+              "duration": 670653000,
               "status": "passed"
             },
             "line": 11,
@@ -818,7 +818,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:16.657Z",
+        "start_timestamp": "2022-05-12T18:46:27.364Z",
         "line": 20,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -826,7 +826,7 @@
         "after": [
           {
             "result": {
-              "duration": 54000,
+              "duration": 38000,
               "status": "passed"
             },
             "match": {
@@ -839,7 +839,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2401000,
+              "duration": 2364000,
               "status": "passed"
             },
             "line": 6,
@@ -869,7 +869,7 @@
           },
           {
             "result": {
-              "duration": 1138375000,
+              "duration": 672800000,
               "status": "passed"
             },
             "line": 7,
@@ -891,7 +891,7 @@
           },
           {
             "result": {
-              "duration": 77000,
+              "duration": 122000,
               "status": "passed"
             },
             "line": 8,
@@ -909,7 +909,7 @@
           },
           {
             "result": {
-              "duration": 7317000,
+              "duration": 7101000,
               "status": "passed"
             },
             "line": 9,
@@ -931,7 +931,7 @@
           },
           {
             "result": {
-              "duration": 6770000,
+              "duration": 10469000,
               "status": "passed"
             },
             "line": 10,
@@ -953,7 +953,7 @@
           },
           {
             "result": {
-              "duration": 3375040000,
+              "duration": 819198000,
               "status": "passed"
             },
             "line": 11,
@@ -981,7 +981,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:21.197Z",
+        "start_timestamp": "2022-05-12T18:46:28.880Z",
         "line": 21,
         "name": "Verify if Place is being successfully added using Add Place API",
         "description": "",
@@ -1002,7 +1002,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3104000,
+              "duration": 2041000,
               "status": "passed"
             },
             "line": 6,
@@ -1032,7 +1032,7 @@
           },
           {
             "result": {
-              "duration": 1309440000,
+              "duration": 682110000,
               "status": "passed"
             },
             "line": 7,
@@ -1054,7 +1054,7 @@
           },
           {
             "result": {
-              "duration": 95000,
+              "duration": 99000,
               "status": "passed"
             },
             "line": 8,
@@ -1072,7 +1072,7 @@
           },
           {
             "result": {
-              "duration": 10300000,
+              "duration": 6180000,
               "status": "passed"
             },
             "line": 9,
@@ -1094,7 +1094,7 @@
           },
           {
             "result": {
-              "duration": 7237000,
+              "duration": 5441000,
               "status": "passed"
             },
             "line": 10,
@@ -1116,7 +1116,7 @@
           },
           {
             "result": {
-              "duration": 3281921000,
+              "duration": 686328000,
               "status": "passed"
             },
             "line": 11,
@@ -1144,11 +1144,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:16:25.813Z",
+        "start_timestamp": "2022-05-12T18:46:30.265Z",
         "before": [
           {
             "result": {
-              "duration": 59000,
+              "duration": 55000,
               "status": "passed"
             },
             "match": {
@@ -1163,7 +1163,7 @@
         "after": [
           {
             "result": {
-              "duration": 32000,
+              "duration": 29000,
               "status": "passed"
             },
             "match": {
@@ -1176,7 +1176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1471000,
+              "duration": 1159000,
               "status": "passed"
             },
             "line": 30,
@@ -1188,7 +1188,7 @@
           },
           {
             "result": {
-              "duration": 3860759000,
+              "duration": 676821000,
               "status": "passed"
             },
             "line": 31,
@@ -1210,7 +1210,7 @@
           },
           {
             "result": {
-              "duration": 81000,
+              "duration": 100000,
               "status": "passed"
             },
             "line": 32,
@@ -1228,7 +1228,7 @@
           },
           {
             "result": {
-              "duration": 6618000,
+              "duration": 6521000,
               "status": "passed"
             },
             "line": 33,

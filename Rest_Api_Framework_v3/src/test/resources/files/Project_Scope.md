@@ -1,0 +1,47 @@
+
+================================
+API_Framework_Scope (BDD style):
+================================
+
+1. create maven project with maven and cucumber and Rest assured dependencies
+2. define project structure with cucumber framework setup
+3. create feature file with the test case you want to automate
+4. implement Smart Step definition files with supported code
+5. Build Utils file to define all re-usable request and response specifications
+6. build POJO class for Serialization and Deserialization Json Payload
+7. Implement logging into framework to log request and response details
+8. Develop End to End functionality test with all validation and assertions
+9. Define global properties and drive all the global variables from Properties file
+10. Define enum class with constants to centralize all resource details
+11. Implement data driven mechanism to drive data dynamically from feature file
+12. Implement parameterization to run tests with multiple data sets using Cucumber Example Keyword
+13. Add more tests and implements Tagging Mechanism to tun selected Tests from Test Runner file
+14. Implement Pre- & Post-conditions for tests with Cucumber Hooks
+15. Execute complete Framework from Maven Commands
+16. Implement Maven driven Global values into Test for Dynamic Execution
+17. Generate Reports for Test Execution results
+18. Integrate the framework into Jenkins CI/CD tool
+19. Implement parameterized Jenkins Job to choose the global values at run time.
+
+
+=====================================================================================================
+
+
+================
+Maven Commands:
+================
+
+1. mvn clean install
+2. mvn clean install -Dtest=Smoke_Runner
+3. mvn clean install -Dtest=Test_Runner
+4. Run from Terminal :
+   ( copy the source path of the project -> go to the directory using terminal -> mvn test || mvn compile || mvn clean install etc. )
+
+5. Run with Tag:
+   mvn test -Dcucumber.options="--tags @AddPlace"
+
+6. Run & get report:
+    mvn test verify
+
+note: -D stands for parameter.
+
