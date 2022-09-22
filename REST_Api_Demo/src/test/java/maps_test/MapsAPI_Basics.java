@@ -5,6 +5,7 @@ import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.Payload;
+import utils.ReUsableMethods;
 
 import static io.restassured.RestAssured.*;         // given when then belong to stati package and have to import manually
 import static org.hamcrest.Matchers.*;              // manually import this static package for Json body matcher
@@ -63,7 +64,7 @@ public class MapsAPI_Basics {
         System.out.println("Response: -> " + response);     // need to parse the json to extract the place_id
 
         // this class is use for parsing Json
-        JsonPath js = new JsonPath(response);
+        JsonPath js = ReUsableMethods.rawToJason(response);
         String placeID = js.getString("place_id");                       // path for json always start from parent for extracting
         System.out.println("++ Place ID -> " + placeID);
 
@@ -106,8 +107,8 @@ public class MapsAPI_Basics {
         System.out.println("++ Place Response -> " + getPlaceResponse);
 
         // Extract & validate place
-        JsonPath Jpath = new JsonPath(getPlaceResponse);
-        String actualAddress = Jpath.getString("address");
+        JsonPath js1 = ReUsableMethods.rawToJason(getPlaceResponse);
+        String actualAddress = js1.getString("address");
         Assert.assertEquals(actualAddress,newAddress, "Address isn't matching ");
 
         System.out.println("---- All Set -----");

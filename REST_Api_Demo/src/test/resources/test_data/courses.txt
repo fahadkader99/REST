@@ -1,0 +1,9 @@
+
+Course task::
+
+1. print no of course returned by API
+2. Print purchase amount
+3. Print title of first course
+4. Print all course titles and their respective prices
+5. print no of copies sold by RPA course
+6. verify if sum of all Course prices match with purchases Amount
