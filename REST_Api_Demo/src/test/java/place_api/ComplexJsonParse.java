@@ -1,4 +1,4 @@
-package maps_test;
+package place_api;
 
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
@@ -80,6 +80,20 @@ public class ComplexJsonParse {
 
 
     }
+
+
+        /*
+    How to send RAW Json from external file system to script
+
+    1. content of the file to String > content of the file can convert into byte >Byte data to String
+    2. Once the filePath become string then pass it to the body(....)
+
+        .body(new String(Files.readAllBytes(Paths.get("C:\\user\\Documents\\........payload.json"))))           // this is how to send RAW json file
+     */
+
+
+
+
 
 
 }

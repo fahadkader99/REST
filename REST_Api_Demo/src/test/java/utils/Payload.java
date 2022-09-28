@@ -72,5 +72,17 @@ public class Payload {
                 "}";
     }
 
+    public static String  addBook(String isbn, String aisle){
+        String payload = "{\n" +
+                "\n" +
+                "\"name\":\"Learn Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"Fahad Kader22\"\n" +
+                "}\n";
+
+        return payload;
+    }
+
 
 }
