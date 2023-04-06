@@ -1,0 +1,45 @@
+{
+  "ping": {
+    "result": "pong"
+  },
+  "users": [
+    {
+      "email": "fahad@gmail.com",
+      "password": "11111"
+    },
+    {
+      "email": "esrat@gmail.com",
+      "password": "22222"
+    },
+    {
+      "email": "sania@gmail.com",
+      "password": "33333"
+    }
+  ],
+  "persons": [
+    {
+      "firstName": "Fahad",
+      "lastName": "Kader",
+      "age": "30",
+      "id": "1",
+      "address": "50 metropolitan",
+      "phoneNumber": "121212121212"
+    },
+    {
+      "firstName": "ayessha",
+      "lastName": "Jahan",
+      "age": "27",
+      "id": "2",
+      "address": "60 metropolitan",
+      "phoneNumber": "1234567890"
+    },
+    {
+      "firstName": "Sania",
+      "lastName": "Jahan",
+      "age": "22",
+      "id": "3",
+      "address": "70 metropolitan",
+      "phoneNumber": "2323232323"
+    }
+  ]
+}

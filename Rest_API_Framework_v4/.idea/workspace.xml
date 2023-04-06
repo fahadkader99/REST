@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dd84b69-965e-403f-8fd4-29f0812e52ab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/logging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/main/java/automation/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/automation/step_def/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/automation/step_def/Step_Def.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/automation/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/cucumber/Options/AddRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/cucumber/Options/DeleteRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/cucumber/Options/SmokeRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/pojo/API_Resources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/pojo/AddPlace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/pojo/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/java/test_data/TestDataBuild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/resources/config/global.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/resources/features/placeValidation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/resources/files/ADD-DeletePlaceAPIs.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/src/test/resources/files/Project_Scope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/Rest_Api_Framework_v3-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/classes/automation/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/automation/step_def/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/automation/step_def/Step_Def.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/automation/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/config/global.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/cucumber/Options/AddRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/cucumber/Options/DeleteRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/cucumber/Options/SmokeRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/features/placeValidation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/files/ADD-DeletePlaceAPIs.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/files/Project_Scope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/pojo/API_Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/pojo/AddPlace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/pojo/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rest_Api_Framework_v3/target/test-classes/test_data/TestDataBuild.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FaJvzwnXbQ9AXUhT7ny9k5fzXI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/files" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dd84b69-965e-403f-8fd4-29f0812e52ab" name="Changes" comment="" />
+      <created>1664724495836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664724495836</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

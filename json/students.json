@@ -1,0 +1,54 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John",
+      "location": "india",
+      "phone": "12987645",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pavan",
+      "location": "Bangladesh",
+      "phone": "87654321",
+      "courses": [
+        "Python",
+        "Appium"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fahad",
+      "location": "USA",
+      "phone": "22334455",
+      "courses": [
+        "JavaScript",
+        "Postman"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jahan",
+      "location": "Dubai",
+      "phone": "12345678",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kader_22",
+      "location": "44 Bronx",
+      "phone": "12977645",
+      "courses": [
+        "JS",
+        "Cypress"
+      ]
+    }
+  ]
+}
